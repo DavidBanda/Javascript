@@ -3,8 +3,10 @@ console.log('start')
 // Promises are an objects
 const promise = new Promise((resolve, reject) => {
     setTimeout(() => {
-        if(true){
-            resolve({ username: 'dbanda' });
+        if (true) {
+            resolve({
+                username: 'dbanda'
+            });
         } else {
             reject(new Error('User error'))
         }

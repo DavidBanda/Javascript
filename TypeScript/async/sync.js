@@ -1,19 +1,20 @@
-console.log('start')
+console.log('start');
 
 function getUserName(name, last_name, lang) {
     setTimeout(() => {
-        const langs = getUserLangProg(lang)
-        return name + '' + last_name + 'Prog: ' + langs
+        const langs = getUserLangProg(lang);
+        return name + '' + last_name + 'Prog: ' + langs;
     }, 2000);
 }
 
 function getUserLangProg(lang) {
     setTimeout(() => {
-        return lang
+        return lang;
     }, 1000);
 }
 
-const user = getUserName('David', 'Banda', ['Python', 'Javascript'])
-console.log(user)
+const user = getUserName('David', 'Banda', ['Python', 'Javascript']);
+console.log(user);
+console.log('end');
 
-console.log('end')
+const arrow = hola => console.log(hola);
