@@ -2,7 +2,7 @@ console.log('start')
 
 function getUserName(name, last_name, lang) {
     setTimeout(() => {
-        const langs = getUserLangProg
+        const langs = getUserLangProg(lang)
         return name + '' + last_name + 'Prog: ' + langs
     }, 2000);
 }
